@@ -1,0 +1,6 @@
+<div [id]="Id" class="acc-section-header" (click)="toggleSection()">
+    {{headerText}}
+</div>
+<div #sectionContent class="acc-section-content">
+  <ng-content></ng-content>
+</div>

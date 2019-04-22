@@ -1,0 +1,22 @@
+
+.acc-section-header
+{
+    cursor: pointer;
+    color: #007bff;
+    background-color: rgba(silver, 0.2);
+    padding: 20px;
+}
+
+.acc-section-header:hover
+{
+    text-decoration: underline;
+}
+
+.acc-section-content
+{
+    transition: height 250ms ease-in-out;
+    overflow: hidden;
+    padding: 0 24px;
+    border-top: solid thin silver;
+    height: 0;
+}
